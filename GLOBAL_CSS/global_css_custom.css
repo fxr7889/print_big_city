@@ -1,0 +1,55 @@
+/* this will cause the 3 boxes above the scrolling banner to center. I added it just compensate for the center image being smaller than the left and right */
+
+#lower-banners {
+    overflow: hidden;
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    padding-left: 41px;
+}
+
+.dark-borders {
+    border: 2px solid black;
+}
+
+.banner-1 {
+    height: 158px;
+    background: url(https://s3.amazonaws.com/autoprint/115/cms_images/118/POP_UP_Displays_Inside%20Image.png) no-repeat center;
+}
+
+.banner-2 {
+    height: 158px;
+    width: 233px;
+    background: url(https://s3.amazonaws.com/autoprint/115/cms_images/118/Plexiglass_banner2.png)no-repeat center;
+}
+
+.banner-3 {
+    height: 158px;
+    background: url(https://s3.amazonaws.com/autoprint/115/cms_images/118/174.png) no-repeat center;
+}
+
+
+/*adjustments to the body (the theme will overide this if it is not set so Please BE MINDFUL OF IT)*/
+
+body {
+    background-color: rgb(197, 192, 203);
+    letter-spacing: normal;
+}
+
+body,
+.sidebar .nav>li>a { /****** ADJUSTED THE FONT AND THE WEIGHT OF THE SIDEBAR ELEMENTS ******/
+    display: block;
+    position: relative;
+    font-family:  'Roboto','Helvetica', 'Open Sans', sans-serif;/*****Roboto is carried over from  pimgraphics look*****/
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*adjustments to the sidebar-header*/
+.sidebar-header {
+    display: block;
+    position: relative;
+    font-family: 'Roboto','Helvetica', 'Open Sans', sans-serif;
+    font-size: 14px;
+}
